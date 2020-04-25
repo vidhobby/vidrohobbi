@@ -1,0 +1,58 @@
+body{
+	font-family: Arial;
+}
+.header{
+	
+	border-bottom: solid;
+	border-color: rgb(250, 83, 83);
+	background-color: rgb(71, 71, 71);
+	position: fixed;
+
+}
+.header img{
+	margin-top: 1vh;
+}
+.header h5{
+	margin-left: 3vh;
+	margin-top: 3.5vh;
+}
+
+button:hover{
+	transform: scale(1.1);
+}
+a{
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+}
+a:hover{
+	text-decoration: none;
+	color: rgb(78, 47, 253);
+	transform: scale(1.05);
+}
+.content{
+	height: 100vh;
+	background-color: rgb(255, 255, 255);
+	padding-bottom: 15vh;
+	margin-top: 3vh;
+	
+}
+
+
+::placeholder{
+	color: white;
+}
+.findbtn{
+	color: white;
+	font-size: 20px
+}
+
+.info{
+	color: white;
+	margi
+	n-top: 10vh;
+}
+.footer{
+	padding-bottom: 2vh;
+}
+
